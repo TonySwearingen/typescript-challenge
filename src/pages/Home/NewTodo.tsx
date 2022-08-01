@@ -19,6 +19,7 @@ export default function NewTodo() {
   }
   return (
     <>
+      <p>Add Todo</p>
       <input
         type="text"
         value={todo}
@@ -26,6 +27,8 @@ export default function NewTodo() {
         onKeyDown={handleKeyDown}
         placeholder="Add new todo"
       />
+      <br />
+      <br />
       <button className="btn btn-primary" onClick={handleSubmit}>Submit</button>
     </>
   );

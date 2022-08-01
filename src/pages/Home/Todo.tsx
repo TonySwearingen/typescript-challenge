@@ -17,6 +17,8 @@ export default function Todo() {
     <div>
       <NewTodo />
       <button className="btn btn-danger" onClick={handleClearButtonClick}>Remove</button>
+      <br />
+      <br />
       <TodoList />
     </div>
   );
