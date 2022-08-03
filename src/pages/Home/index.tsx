@@ -1,8 +1,8 @@
 import * as React from "react";
 import DefaultLayout from "@components/layout/defaultLayout";
 import { Container, Row } from "react-bootstrap";
-import Todo from "./Todo";
-import Provider from "./Provider";
+import Todo from "./TodoJS";
+
 
 export default () => {
   return (
@@ -10,10 +10,8 @@ export default () => {
       <section className="bg-light">
         <Container>
           <Row>
-            <h1 className="text-center">To Do List</h1>
-            <Provider>
+            <h1 className="text-center">ToDo List</h1>
               <Todo/>
-            </Provider>
           </Row>
         </Container>
       </section>
